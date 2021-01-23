@@ -7,7 +7,7 @@ const { send } = require('process')
 const server = http.createServer(app)
 const io = socketIo(server , {
     cors: {
-      origin: "http://localhost:3000",
+	    origin: "https://schat.iamtushar324.live",
       credentials: true
     }
   })
